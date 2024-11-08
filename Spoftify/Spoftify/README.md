@@ -1,20 +1,7 @@
-  <p align="center">
-  <a href="https://github.com/SpotX-Official/SpotX/releases"><img src="https://spotx-official.github.io/images/logos/logo.png" /></a>
-</p>
-
-<p align="center">        
-      <a href="https://t.me/spotify_windows_mod"><img src="https://spotx-official.github.io/images/shields/SpotX_Channel.svg"></a>
-      <a href="https://t.me/SpotxCommunity"><img src="https://spotx-official.github.io/images/shields/SpotX_Community.svg"></a>
-      <a href="https://github.com/SpotX-Official/SpotX-Bash"><img src="https://spotx-official.github.io/images/shields/SpotX_for_Mac&Linux.svg"></a>
-      <a href="https://telegra.ph/SpotX-FAQ-09-19"><img src="https://spotx-official.github.io/images/shields/faq.svg"></a>
-      </p>
-
-   <h2> <div align="center"><b> Modified Spotify Client for Windows </b></div> </h2>
-
 <h1>System requirements</h1>
 
 - <strong>OS: Windows 7-11</strong>
-- <strong>Spotify: latest official [versions](https://cutt.ly/8EH6NuH)</strong>
+- <strong>Spotify: latest official [versions](https://docs.google.com/spreadsheets/d/1Vc5PAWC41ji8IuC4LXCTzf_H3vd_SVABEsabRnACCw8/edit?usp=sharing)</strong>
 - <strong>For Windows Desktop only (Microsoft store version is not suitable).</strong>
 - <strong>PowerShell: version 5 and above recommended</strong>
 
@@ -23,7 +10,6 @@
 - <strong>Blocks all banner, video and audio ads in the client</strong>
 - <strong>Hiding podcasts, episodes and audiobooks from the homepage (optional)</strong>
 - <strong>Block Spotify automatic updates (optional)</strong>
-- <strong>More experimental features have been activated ([see the full list](https://github.com/SpotX-Official/SpotX/discussions/50))</strong>
 - <strong>Disabled sentry's console log/error/warning messages to Spotify developers, halted user interaction logging, eliminated right-to-left CSS rules for simplification, and performed code minification</strong> 
 
 <h1>Fast installation / Update</h1>
@@ -34,7 +20,6 @@
   #### During installation, you need to confirm some actions, also contains:
   
   - New theme activated (new right and left sidebar, some cover change)
-  - All [experimental features](https://github.com/SpotX-Official/SpotX/discussions/50) included
 
   <h4> </h4>
   
@@ -64,8 +49,6 @@ iex "& { $(iwr -useb 'https://spotx-official.github.io/run.ps1') } -m -new_theme
   - Forced installation of version 1.2.13 (since the old theme was removed in subsequent versions)
   - Old theme activated
   - Automatic blocking of Spotify updates
-  - All [experimental features](https://github.com/SpotX-Official/SpotX/discussions/50) included
-
   <h4> </h4>
   
 #### Just download and run [Install.bat](https://raw.githack.com/amd64fox/SpotX/main/Install_Old_theme.bat)
@@ -93,9 +76,6 @@ iex "& { $(iwr -useb 'https://spotx-official.github.io/run.ps1') } -m -v 1.2.13.
   
   - New theme activated (new right and left sidebar, some cover change)
   - Hiding podcasts/episodes/audiobooks from the homepage
-  - Activated [static theme](https://github.com/SpotX-Official/SpotX/discussions/50#discussioncomment-4096066) <kbd>spotify</kbd> for lyrics
-  - Hiding [ad-like sections](https://github.com/SpotX-Official/SpotX/discussions/50#discussioncomment-4478943)
-  - All [experimental features](https://github.com/SpotX-Official/SpotX/discussions/50) included
   - Removal of Spotify MS if it was found 
   - Installation of the recommended version of Spotify (if another client has already been found, it will be installed over) 
   - Blocking of Spotify updates
@@ -131,7 +111,6 @@ iex "& { $(iwr -useb 'https://spotx-official.github.io/run.ps1') } -m -confirm_u
   
   - New theme activated (new right and left sidebar, some cover change)
   - Disabled only audio ads in podcasts
-  - All [experimental features](https://github.com/SpotX-Official/SpotX/discussions/50) included
 
   <h4> </h4>
   
@@ -151,16 +130,6 @@ iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/spotx-off
 iex "& { $(iwr -useb 'https://spotx-official.github.io/run.ps1') } -m -premium -new_theme"
 ```
 
-</details>
-
-<details>
-<summary><small>Installing with parameters</small></summary><p>
-
-You can specify various parameters for a more flexible installation, more [details here](https://github.com/SpotX-Official/SpotX/discussions/60)
-
-</details>
-
-</details>
 
 <h1>Uninstall</h1>
 
@@ -169,15 +138,3 @@ You can specify various parameters for a more flexible installation, more [detai
 or
 
 - Reinstall Spotify ([Full uninstall Spotify](https://github.com/amd64fox/Uninstall-Spotify) recommended)
-
-<h1>FAQ</h1>
-
- Read [FAQ](https://telegra.ph/SpotX-FAQ-09-19)
-
-<h1>Credits</h1>
-
- Some tricks were taken from <a href="https://github.com/khanhas/spicetify-cli">spicetify-cli</a>, many thanks to the contributors.
-
-<h1>Disclaimer</h1>
-
- SpotX is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.
